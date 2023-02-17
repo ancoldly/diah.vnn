@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+:root {
+    --primary-color: #f2726a;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#header {
+    background: #5CE1E6;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    height: 100px;
+    width: auto;
+}
+#header .logo_img h1 {
+    padding-top: 30px;
+}
+.logo_img img {
+    width: 100px;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30%;
+}
+.social {
+    padding-left: 550px;
+    padding-top: 40px;
+}
+.social a {
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+    
+}
+.app_img {
+    width: 200px;
+    height: 200px;
+    margin: 15px auto;
+    width: 300px;
+    height: 300px;
+}
+.gioithieu {
+    padding-top: 100px;
+    display: flex;
+    width: auto;
+    height: 550px;
+}
+.infoapp {
+    padding-top: 30px;
+    padding-right: 250px;
+}
+.infoapp p {
+    color: #7A8A9E;
+}
+.infoapp h1 {
+    padding-top: 20px;
+}
+.infoapp span {
+    color: var(--primary-color);
+}
+.spans p {
+    padding-top: 20px;
+    color: black;
+}
+.info_img img {
+    height: 50px;
+    width: 50px;
+}
+.info_img {
+    display:  flex;
+    padding-top: 20px;
+}
+.free {
+    padding-top: 5px;
+    padding-left: 15px;
+}
+.info_img1 img {
+    height: 50px;
+    width: 50px;
+}
+.info_img1 {
+    display:  flex;
+    padding-top: 20px;
+}
+.free1 {
+    padding-left: 15px;
+}
+.info_img2 img {
+    height: 50px;
+    width: 50px;
+}
+.info_img2 {
+    display:  flex;
+    padding-top: 20px;
+}
+.free2 {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.download button {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    background: green;
+    color: white;
+}
+.download {
+padding-top: 50px;
+padding-right: 50px;
+}
+#logo {
+    height: 90vh;
+    background-image: url(https://i.pinimg.com/originals/3d/c4/49/3dc449b04d9ace524a0ecd247e1fdc83.png);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Popins";
+    color: white;
+}
+.contact-header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    background-color: rgb(11, 122, 122);
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.contact-info img {
+    padding-top: 5px;
+    height: 20px;
+    width: 15px;
+}
+.content-info {
+    color: white;
+}
+.content-info span {
+    color: yellow;
+}
+.content-info a {
+    color: black;
+}
+.search-form input {
+    background: #EDF3FA;
+    color: #7A8A9E;
+    padding: 11px 20px;
+    border: transparent;
+    border-radius: 40px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.card {
+    background: #242628;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+}
+.card_img {
+    width: 140px;
+    height: 140px;
+    border: 4px solid var(--primary-color);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 25px auto;
+}
+.card p {
+    color: var(--primary-color);
+}
+.card h2 {
+    margin: 15px auto;
+}
+#tuvan {
+    background: url(https://thuthuatnhanh.com/wp-content/uploads/2022/06/Hinh-nen-iPad-4K.jpg);
+    height: 400px;
+}
+.dangki h2 {
+    padding-top: 20px;
+    padding-left: 200px;
+    color: white;
+}
+.form-ten input{
+    background: #EDF3FA;
+    color: #7A8A9E;
+    padding: 11px 20px;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-sdt input{
+    background: #EDF3FA;
+    color: #7A8A9E;
+    padding: 11px 20px;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-email input{
+    background: #EDF3FA;
+    color: #7A8A9E;
+    padding: 11px 20px;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-ten {
+    padding-top: 15px;
+    padding-left: 200px;
+}
+.form-sdt {
+    padding-top: 15px;
+    padding-left: 200px;
+
+}
+.form-email {
+    padding-top: 15px;
+    padding-left: 200px;
+}
+.btdangki button {
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background: red;
+    color: white;
+}
+.btdangki {
+    padding-top: 20px;
+    padding-left: 300px;
+}
